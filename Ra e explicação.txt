@@ -1,0 +1,11 @@
+
+Marcus Vinicius 		RA: 082160024
+Vinicius Sena 			RA: 082160014
+
+	As variáveis de sessão ficam do lado do servidor, pode ser utilizada para gravar campos específicos de usuário, como por exemplo seu id, 
+por exemplo em uma tela de login, após o usuário se logar o sistema guarda seu id, para quando ele navegar entre as páginas, o id dele pode ser 
+utilizado para ver se ele tem permissão para acessar determinado conteúdo.
+	A session por ficarem do lado do servidor, é um pouco mais segura, devido ela não poder ser alterada pelo cliente, e ela só irá existir 
+enquanto o cliente estiver com o browser aberto, o seu conteúdo sempre existirá independente da página que usuário esteja acessando no site, 
+assim o cliente não precisa fazer toda hora uma consulta no servidor para recuperar uma determinada característica  do usuário.
+	
