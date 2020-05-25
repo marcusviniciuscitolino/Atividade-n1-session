@@ -8,7 +8,9 @@ utilizado para ver se ele tem permissão para acessar determinado conteúdo.
 	A session por ficarem do lado do servidor, é um pouco mais segura, devido ela não poder ser alterada pelo cliente, e ela só irá existir 
 enquanto o cliente estiver com o browser aberto, o seu conteúdo sempre existirá independente da página que usuário esteja acessando no site, 
 assim o cliente não precisa fazer toda hora uma consulta no servidor para recuperar uma determinada característica  do usuário.
-	
+	Ela pode ser utilizada para guardar qualquer tipo de variável, e pode ser acessada a todo momento, só devemos tomar cuidado porque a session
+se expira com o decorrer to tempo (o tempo de duração da session dependendo da linguagem pode ser alterado), por isso é sempre bom verificar se o valor
+da mesma não está nulo, para que determinados erros sejam evitados, no lado do cliente.
 
 	A api é necessaria para os testes link da view com session criada utilizando JavaScript e a blibioteca jquery: https://github.com/marcusviniciuscitolino/Atividade-n1-session
-	Link da api https://github.com/senavn/N2-BackEnd feita em node
+	Link da api https://github.com/senavn/N2-BackEnd feita em node.
